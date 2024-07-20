@@ -1,0 +1,32 @@
+Problem solving patterns - 
+1. Frequency Pattern
+2. Multiple Pointers (Two pointers pattern)
+3. Sliding window Pattern
+4. Divide and Conquer Pattern
+
+1. Frequency Pattern - 
+- It uses an object or set to collect values and the frequency of those values.
+- We use frequency patterns to avoid using O(n^2).
+- Mostly used with array or string
+Application - 
+- When we have a bunch of values and compare them to each other, we can use this pattern.
+- For example - SameSquared problem, Anagram problem
+
+2. Multiple Pointer (Two pointer) Pattern - 
+- In this patter, we create pointer or values that correspond to an index and move toward the beginning,nd or middle based on a certain condition.
+- Using this pattern, we can write more efficient algorithm with minimal space and time complexity.
+Application - 
+- We have to analyze each element of the collection compared to its other elements in an array or a list.
+- For example - SumZero problem, TripletSumZero problem
+3. Sliding Window pattern - 
+- This pattern is useful when we have a set of data like an array or a string.
+- We are creating a window and sliding in left to right in a condition.
+Application - 
+- When we have a string or an array and need to move over the data, we can use this pattern.
+- For example - maximumsubarraysum problem
+4. Divide and Conquer problem - 
+- This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data.
+- This pattern can tremendously decrease time complexity.
+Application - 
+- Use Divide and conquer algorithm when a problem can be divided into smaller subproblems, solved independently and then combined.
+
